@@ -37,7 +37,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python poster.py
+          python poster_esports.py
 
       # state.json vs. değişiklik olduysa commit+push
       - name: Commit state.json
